@@ -1,8 +1,8 @@
-header, h1, h2, h3 {
+header, h1, h2, h3, .features-name {
     font-family: 'Montserrat', sans-serif;
 }
 
-.about-us-descr {
+.about-us-descr, .features-descr, .features-contact {
     font-family: 'Domine', serif;
 }
 
@@ -21,8 +21,18 @@ h3 {
     font-weight: 700;
 }
 
-.about-us-descr {
+.about-us-descr, .features-descr {
     font-size: 15px;
     font-weight: 400;
     line-height: 28px;
+}
+
+.features-name {
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.features-contact {
+    font-size: 20px;
+    font-weight: 400;
 }
