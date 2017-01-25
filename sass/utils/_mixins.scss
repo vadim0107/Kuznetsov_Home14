@@ -1,0 +1,15 @@
+@mixin link-more {
+    display: inline-block;
+    padding: 13px 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: #16d428;
+    border-radius: 25px;
+    font-weight: 400;
+    font-size: 13px;
+    font-family: Montserrat, sans-serif;
+    &:hover {
+
+    }
+}

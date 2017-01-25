@@ -1,0 +1,26 @@
+.about-us {
+    .owl-carousel {
+        position: relative;
+        padding: 55px 50px 0 50px;
+        border-top: 1px solid #e7eff1;
+        margin-top: 65px;
+        .owl-nav {
+            .owl-prev {
+                background: url("../images/arrow-left.png") no-repeat;
+                width: 31px;
+                height: 31px;
+                position: absolute;
+                top: 55px;
+                left: 0;
+            }
+            .owl-next {
+                background: url("../images/arrow-right.png") no-repeat;
+                width: 31px;
+                height: 31px;
+                position: absolute;
+                top: 55px;
+                right: 0;
+            }
+        }
+    }
+}

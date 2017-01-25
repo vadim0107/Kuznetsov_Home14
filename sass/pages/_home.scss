@@ -1,0 +1,18 @@
+.about-us {
+    padding-top: 95px;
+    padding-bottom: 90px;
+    .about-us-descr {
+        width: 60%;
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .about-us-link {
+        text-align: center;
+        margin-top: 30px;
+        a {
+            @include link-more;
+        }
+
+    }
+}
