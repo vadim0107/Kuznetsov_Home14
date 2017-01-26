@@ -1,8 +1,9 @@
-header, h1, h2, h3, .features-name, .service-name, .testimonials-name {
+header, h1, h2, h3, .features-name, .service-name, .testimonials-name, .blog-name {
     font-family: 'Montserrat', sans-serif;
 }
 
-.about-us-descr, .features-descr, .features-contact, .service-descr, .testimonials-descr, .testimonials-info {
+.about-us-descr, .features-descr, .features-contact, .service-descr, .testimonials-descr, .testimonials-info,
+.blog-date, .blog-descr {
     font-family: 'Domine', serif;
 }
 
@@ -21,7 +22,7 @@ h3 {
     font-weight: 700;
 }
 
-.about-us-descr, .features-descr, .service-descr, .testimonials-descr, .testimonials-info {
+.about-us-descr, .features-descr, .service-descr, .testimonials-descr, .testimonials-info, .blog-date, .blog-descr {
     font-size: 15px;
     font-weight: 400;
     line-height: 28px;
@@ -37,7 +38,7 @@ h3 {
     font-weight: 400;
 }
 
-.service-name {
+.service-name, .blog-name {
     font-size: 18px;
     font-weight: 700;
 }
