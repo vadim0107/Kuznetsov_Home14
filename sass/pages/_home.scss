@@ -242,3 +242,45 @@
         }
     }
 }
+
+.contact-us {
+    padding-top: 95px;
+    padding-bottom: 100px;
+    ul.contact-list {
+        margin-top: 15px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        li {
+            width: 33%;
+            min-width: 300px;
+            margin-top: 15px;
+            border: 1px solid #e1eaec;
+            padding: 34px 0 30px 35px;
+            .contact-img {
+                display: inline-block;
+                img {
+                    max-width: 100%;
+                }
+            }
+            .contact-info {
+                display: inline-block;
+                margin-left: 40px;
+                .contact-name {
+                    text-transform: uppercase;
+                }
+                .contact-link {
+                    a {
+                        color: #343a3b;
+                        &:hover {
+                            color: #ffac56;
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
