@@ -1,4 +1,4 @@
-h1, h2, .features-contact {
+h1, h2, .features-contact, .testimonials h3, .testimonials-name {
     color: #ffffff;
 }
 
@@ -8,4 +8,8 @@ h3, .features-name, .service-name {
 
 .about-us-descr, .features-descr, .service-descr {
     color: #838b8c;
+}
+
+.testimonials-descr, .testimonials-info {
+    color: #ddf8ff;
 }

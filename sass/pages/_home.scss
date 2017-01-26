@@ -141,3 +141,45 @@
         }
     }
 }
+
+.testimonials {
+    background-color: #03b6e7;
+    .my-container {
+        padding-top: 95px;
+        padding-bottom: 80px;
+        background: url("../images/testimonials-icon-bg.png") no-repeat;
+        text-align: center;
+        .testimonials-img {
+            margin-top: 35px;
+            img {
+                max-width: 100%;
+            }
+        }
+        .testimonials-descr {
+            position: relative;
+            margin-top: 30px;
+            padding: 0 100px;
+            &:after {
+                display: inline-block;
+                content: "";
+                width: 30px;
+                height: 21px;
+                background: url("../images/quote-icon.png");
+                position: absolute;
+                right: 40px;
+                bottom: -20px;
+            }
+        }
+        .testimonials-name {
+            text-transform: uppercase;
+            &:before {
+                display: block;
+                margin: 30px auto;
+                content: "";
+                width: 17px;
+                height: 2px;
+                background-color: #ffffff;
+            }
+        }
+    }
+}
