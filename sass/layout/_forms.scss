@@ -1,0 +1,41 @@
+footer form.newsletter {
+    margin-top: 40px;
+    input[type=email] {
+        background-color: #323334;
+        border: none;
+        border-radius: 26px;
+        padding: 15px 140px 18px 34px;
+        color: #ffffff;
+    }
+    input[type=submit] {
+        @include link-more;
+        border: none;
+        font-size: 15px;
+        padding: 15px 23px 16px 23px;
+        margin-left: -120px;
+    }
+}
+
+::-webkit-input-placeholder {
+    text-transform: uppercase;
+    color: #5e5e5e;
+    font-family: Montserrat, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+::-moz-placeholder {
+    text-transform: uppercase;
+    color: #5e5e5e;
+    font-family: Montserrat, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+:-ms-input-placeholder {
+    text-transform: uppercase;
+    color: #5e5e5e;
+    font-family: Montserrat, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+}

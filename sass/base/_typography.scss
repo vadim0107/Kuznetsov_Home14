@@ -1,9 +1,10 @@
-header, h1, h2, h3, .features-name, .service-name, .testimonials-name, .blog-name, .contact-name {
+header, h1, h2, h3, h4, .features-name, .service-name, .testimonials-name, .blog-name, .contact-name,
+.footer-nav, .footer-industary, ul.footer-social {
     font-family: 'Montserrat', sans-serif;
 }
 
 .about-us-descr, .features-descr, .features-contact, .service-descr, .testimonials-descr, .testimonials-info,
-.blog-date, .blog-descr, .contact-link {
+.blog-date, .blog-descr, .contact-link, .newsletter-descr, .copyright {
     font-family: 'Domine', serif;
 }
 
@@ -47,4 +48,26 @@ h3 {
     font-size: 18px;
     font-weight: 400;
     line-height: 28px;
+}
+
+h4 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.footer-nav, .footer-industary, {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.newsletter-descr, .copyright {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+ul.footer-social {
+    font-size: 13px;
+    font-weight: 400;
 }
