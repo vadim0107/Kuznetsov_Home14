@@ -10,6 +10,7 @@
         text-align: center;
         a {
             @include link-more;
+            padding: 13px 25px;
         }
     }
 }
@@ -92,9 +93,51 @@
             float: right;
             a {
                 @include link-more;
-                padding-left: 32px;
-                padding-right: 32px;
             }
+        }
+    }
+}
+
+.projects {
+    padding-top: 90px;
+
+}
+
+.services {
+    padding-top: 90px;
+    padding-bottom: 90px;
+    ul.service-list {
+        margin-top: 40px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        li {
+            width: 33%;
+            min-width: 300px;
+            margin-top: 15px;
+            padding-right: 50px;
+            .service-img {
+                height: 44px;
+                img {
+                    max-width: 100%;
+                }
+            }
+            .service-name {
+                text-transform: uppercase;
+                margin-top: 25px;
+            }
+            .service-descr {
+                margin-top: 10px;
+            }
+        }
+    }
+    .services-link {
+        margin-top: 50px;
+        text-align: center;
+        a {
+            @include link-more;
         }
     }
 }

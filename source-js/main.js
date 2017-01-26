@@ -1,4 +1,22 @@
-$('.owl-carousel').owlCarousel({
+$('.industry-slider').owlCarousel({
+    loop:true,
+    margin:30,
+    nav:true,
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:4
+        }
+    }
+});
+
+$('.company-slider').owlCarousel({
     loop:true,
     margin:60,
     navText: [],
