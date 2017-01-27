@@ -1,16 +1,16 @@
 $('.industry-slider').owlCarousel({
     loop:true,
     margin:30,
-    nav:true,
+    dots:true,
     responsiveClass:true,
     responsive:{
         0:{
             items:1
         },
-        600:{
+        450:{
             items:2
         },
-        1000:{
+        900:{
             items:4
         }
     }
@@ -34,6 +34,24 @@ $('.company-slider').owlCarousel({
             items:5,
             nav:true,
             loop:false
+        }
+    }
+});
+
+$('.project-slider').owlCarousel({
+    loop:true,
+    margin:30,
+    dots:true,
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        450:{
+            items:1
+        },
+        900:{
+            items:1
         }
     }
 })

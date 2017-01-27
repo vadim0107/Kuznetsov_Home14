@@ -1,4 +1,50 @@
-
+header {
+    .industry-slider {
+        margin-top: 60px;
+        .owl-item {
+            background-color: #03b6e7;
+            text-align: center;
+            height: 282px;
+            img {
+                margin: 20px auto;
+                width: 60px;
+            }
+            a {
+                padding-top: 63px;
+                padding-bottom: 80px;
+                display: block;
+                text-transform: uppercase;
+                color: #ffffff;
+                text-decoration: none;
+            }
+            &:hover {
+                background-color: #f6961b;
+            }
+        }
+    }
+    .owl-theme .owl-dots {
+        .owl-dot {
+            margin: 90px 3.5px 0 3.5px;
+            width: 16px;
+            height: 16px;
+            span {
+                width: 16px;
+                height: 16px;
+                margin: 0;
+                background: none;
+                border: 2px solid #ffffff;
+                &:hover {
+                    border: 2px solid #16d428;
+                    background: none;
+                }
+            }
+        }
+        .owl-dot.active span {
+            background: url("../images/carousel-active.png") center;
+            border: 2px solid #16d428;
+        }
+    }
+}
 
 .about-us {
     .company-slider {
@@ -23,6 +69,38 @@
                 top: 55px;
                 right: 0;
             }
+        }
+    }
+}
+
+.projects {
+    .project-slider {
+        position: relative;
+    }
+    .owl-theme .owl-dots {
+        display: inline-block;
+        position: absolute;
+        right: 25px;
+        bottom: 20px;
+        .owl-dot {
+            margin: 0 3px;
+            width: 16px;
+            height: 16px;
+            span {
+                width: 16px;
+                height: 16px;
+                margin: 0;
+                background: none;
+                border: 2px solid #ffffff;
+                &:hover {
+                    border: 2px solid #16d428;
+                    background: none;
+                }
+            }
+        }
+        .owl-dot.active span {
+            background: url("../images/carousel-active.png") center;
+            border: 2px solid #16d428;
         }
     }
 }

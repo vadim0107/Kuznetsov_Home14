@@ -100,7 +100,70 @@
 
 .projects {
     padding-top: 90px;
-
+    padding-bottom: 90px;
+    .row {
+        margin-top: 30px;
+        .project-one {
+            position: relative;
+            .project-one-img {
+                text-align: center;
+                img {
+                    max-width: 100%;
+                }
+            }
+            .project-one-info {
+                background-color: #f6961b;
+                padding: 38px 30px 55px 30px;
+                .project-name {
+                    text-transform: uppercase;
+                }
+                .project-one-descr {
+                    margin-top: 15px;
+                }
+            }
+        }
+        .project-two {
+            position: relative;
+            .project-two-info {
+                border: 1px solid #dae5e8;
+                padding: 38px 70px 53px 30px;
+                .project-name {
+                    text-transform: uppercase;
+                }
+                .project-two-descr {
+                    margin-top: 15px;
+                }
+            }
+        }
+    }
+    .project-link-info {
+        position: absolute;
+        top: 20px;
+        left: 35px;
+        z-index: 1;
+        a {
+            color: #ffffff;
+            text-align: center;
+            display: inline-block;
+            padding: 6px 0;
+            border: 2px solid #ffac56;
+            border-radius: 16px;
+            width: 110px;
+            text-transform: uppercase;
+            &:hover {
+                color: #ffac56;
+                text-decoration: none;
+            }
+        }
+    }
+    .project-link {
+        margin-top: 45px;
+        text-align: center;
+        a {
+            @include link-more;
+            padding: 13px 28px;
+        }
+    }
 }
 
 .services {
@@ -222,6 +285,7 @@
             }
         }
         li:first-child {
+            z-index: 1;
             border-top: 3px solid #16d428;
             box-shadow: 0 0 70px #d4e2e5;
         }
