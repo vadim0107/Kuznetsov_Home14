@@ -39,3 +39,16 @@ footer form.newsletter {
     font-size: 13px;
     font-weight: 400;
 }
+
+@media (max-width: 400px) {
+    footer form.newsletter {
+        text-align: center;
+        input[type=email] {
+            padding-right: 100px;
+        }
+        input[type=submit] {
+            margin-top: 15px;
+            margin-left: 0;
+        }
+    }
+}

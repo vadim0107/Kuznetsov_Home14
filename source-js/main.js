@@ -20,19 +20,20 @@ $('.company-slider').owlCarousel({
     loop:true,
     margin:60,
     navText: [],
+    nav: true,
     responsiveClass:true,
     responsive:{
         0:{
-            items:1,
-            nav:true
+            items:1
+        },
+        400: {
+            items:2
         },
         600:{
-            items:3,
-            nav:false
+            items:3
         },
         1000:{
             items:5,
-            nav:true,
             loop:false
         }
     }
@@ -42,16 +43,5 @@ $('.project-slider').owlCarousel({
     loop:true,
     margin:30,
     dots:true,
-    responsiveClass:true,
-    responsive:{
-        0:{
-            items:1
-        },
-        450:{
-            items:1
-        },
-        900:{
-            items:1
-        }
-    }
+    items:1
 })

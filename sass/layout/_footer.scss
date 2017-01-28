@@ -69,3 +69,41 @@ footer {
         }
     }
 }
+
+@media (max-width: 800px) {
+    footer .footer-bottom {
+        .copyright {
+            display: block;
+            text-align: center;
+        }
+        ul.footer-social {
+            float: none;
+            text-align: center;
+            li {
+                margin-top: 15px;
+            }
+        }
+    }
+}
+
+@media (max-width: 700px) {
+    footer {
+        .footer-top .footer-logo {
+            margin-right: 60px;
+        }
+    }
+}
+
+@media (max-width: 370px) {
+    footer {
+        .footer-top {
+            .footer-logo {
+                margin-top: 0;
+            }
+            .footer-newsletter .newsletter-descr {
+                width: 300px;
+            }
+        }
+    }
+}
+
